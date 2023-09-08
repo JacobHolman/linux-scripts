@@ -3,4 +3,4 @@ Public linux scripts repo
 
 To install nvidia driver, run
 
-`bash <(curl -s https://new.lavakid.net/linux-scripts/install-nvidia-driver.sh)`
+`bash <(curl -s https://raw.githubusercontent.com/RealLava/linux-scripts/main/install-nvidia-driver.sh)`
