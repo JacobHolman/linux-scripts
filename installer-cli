@@ -1,0 +1,10 @@
+#!/bin/bash
+trap 'exit' INT
+while true; do
+    clear
+    read -p "Program to install from the repo: " input_command
+    clear
+    echo "Installing $input_command"
+    bash <(curl -s https://raw.githubusercontent.com/RealLava/linux-scripts/main/$input_command.sh)
+    sudo exit
+done
