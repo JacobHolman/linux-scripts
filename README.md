@@ -1,6 +1,6 @@
 # linux-scripts
 Public linux scripts repo
 
-To install nvidia driver, run
+To install stuff, run
 
-`bash <(curl -s https://raw.githubusercontent.com/RealLava/linux-scripts/main/install-nvidia-driver.sh)`
+`bash <(curl -s https://raw.githubusercontent.com/RealLava/linux-scripts/main/install-<application>.sh)`
